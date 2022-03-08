@@ -7,7 +7,7 @@ import io from 'socket.io-client'
 function App() {
     const [socket, setSocket] = useState(null)
     useEffect(() => {
-        const newSocket = io(`https://nithya-hello-world.herokuapp.com`)
+        const newSocket = io(`https://nithya-ticket-counter.herokuapp.com`)
         setSocket(newSocket)
         return () => newSocket.close()
     }, [setSocket])
