@@ -1,0 +1,100 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  .body-bg{
+      background-image: url('../img/bg.jpeg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  .body-bg-setup{
+    background-color: #effcff;
+    background-image: linear-gradient(45deg, #effcff 50%, #ffffff 100%);
+    
+  }
+  .container {
+    max-width: 960px;
+  }
+
+  .card-header {
+    background-color: #dadada;
+    background-image: linear-gradient(45deg, #dadada 50%, #ffffff 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-header:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .take-token-card{
+    background-color: #484653;
+    background-position: right;
+    background-image: url('../img/card-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+  }
+  .take-token-card table {
+      font-size: 1.4rem;
+  }
+  .card-deck .card {
+    min-width: calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    border-radius: 10px;
+  }
+  .counter-status{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fbff00;
+    box-shadow: 2px 2px 5px rgba(238, 222, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .active-kiosk{
+    background-color: #00b627;
+    background-image: linear-gradient(57deg, #00b627 50%, #39ea4c 100%);
+    color: #FFF;
+  }
+  .in-active-kiosk{
+    background-color: #cd1215;
+    background-image: linear-gradient(72deg, #cd1215 50%, #f75558 100%);
+    color: #FFF;
+  }
+  .counter-status.active{
+    background-color: #11e400;
+    box-shadow: 2px 2px 5px rgb(0 201 6 / 50%);
+  }
+  .counter-status.in-active{
+    background-color: #f10101;
+    box-shadow: 2px 2px 5px rgba(201, 13, 0, 0.5);
+  }
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 0.5rem 0.6rem rgb(0 0 0 / 5%); }
+
+  .bg-in-active {
+      background-color: #9E9E9E;
+      background-image: linear-gradient(45deg, #9E9E9E 50%, #9E9E9E 100%);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+ 
+  .bg-active {
+      background-color: #fff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+ 
+ .bg-idle {
+     background-color: #98AFC7;
+     background-image: linear-gradient(45deg, #98AFC7 50%, #98AFC7 100%);
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }

@@ -1,0 +1,12 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "no-shadowed-variable": false,
+    "max-classes-per-file": false,
+    "no-console": false,
+    "only-arrow-functions": false
+  }
+}
