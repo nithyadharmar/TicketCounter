@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios"
 import { Counter, Token } from '../models/token'
 import 'regenerator-runtime/runtime'
 
-const baseUrl: string = "https://nithya-hello-world.herokuapp.com/api/tokens"
+const baseUrl: string = "https://nithya-ticket-counter.herokuapp.com/api/tokens"
 
 //*** Token ***//
 export const unassignedTokens = async (): Promise<AxiosResponse<Token[]>> => {
