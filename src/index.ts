@@ -39,5 +39,5 @@ initializeSocketIO(io);
 app.use(bundler.middleware());
 
 server.listen(port, () => {
-    console.log(`server started at http://localhost:${port}`);
+    console.log(`server started at https://nithya-ticket-counter.herokuapp.com:${port}`);
 });
