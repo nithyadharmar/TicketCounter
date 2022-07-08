@@ -1,6 +1,6 @@
 # TicketCounter App does the following functionalities:
 
-1.	The system have two separate views, one for a counter manager and the other for customers.
+1.	This system have two separate views, one for a counter manager and the other for customers.
 
 2.	The customer View: (https://nithya-ticket-counter.herokuapp.com/)
     
@@ -34,7 +34,7 @@
         
 Note:
 
-1.	Build a backend application to manage the queues, so that both views can be run simultaneously on separate browsers.
+1.	Built a backend application with socket to manage the queues, so that both views can be run simultaneously on separate browsers.
 
 2.	Did not implement login or authentication. Assume only one user.
 
