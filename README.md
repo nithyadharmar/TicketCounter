@@ -1,5 +1,8 @@
 # TicketCounter App does the following functionalities:
 
+Backend api : Node.js(Typescript)
+Frontend    : React(Typescript)
+
 1.	This system have two separate views, one for a counter manager and the other for customers.
 
 2.	The customer View: (https://nithya-ticket-counter.herokuapp.com/)
